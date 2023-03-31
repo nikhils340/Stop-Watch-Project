@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Rubik+Bubbles&display=swap');
+body{
+    background-color: rgb(87, 89, 91);
+    font-family: 'Rubik Bubbles', cursive;
+}
+.stopwatch{
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgba(68, 53, 53, 0.8),rgba(142, 79, 79, 0.8)),url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0px;
+    color: white; 
+    /* color to the time */
+    margin:200px auto 0;
+    box-shadow: 0 10px 10px black;
+}
+
+.stopwatch h1{
+    margin-top: 60px;
+    font-size: 64px;
+    font-weight: 300;
+
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons img{
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+h3{
+    color: rgb(90, 201, 220);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+}
+h3:hover{
+    color: pink;
+}
+
+#displaytime:hover{
+    color: aquamarine;
+}
+
+/* buttons img :hover{
+    color: aqua;
+} */
